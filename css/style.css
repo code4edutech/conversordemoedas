@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #ff8a00, #da1b60, #1e3c72, #5a4dff);
+  background-size: 100% 100%;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+select, input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box; /* Garantir que o padding não afete o tamanho */
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #f06595;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Para o botão ter o mesmo tamanho */
+}
+
+button:hover {
+  background-color: #ff6b6b;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%; /* Corrigido para garantir o mesmo tamanho */
+  box-sizing: border-box; /* Corrigir a diferença de tamanho */
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.9rem;
+}
